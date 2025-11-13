@@ -29,7 +29,7 @@ twitter_username: john_dry
 github_username:  svjunkie
 
 # Build settings
-theme: dinky
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
 
