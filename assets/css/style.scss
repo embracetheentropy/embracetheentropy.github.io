@@ -1,0 +1,46 @@
+---
+---
+
+@import 'jekyll-theme-dinky';
+
+/* Custom styles for blog page */
+.posts {
+  margin-top: 2em;
+}
+
+.posts .post {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+
+.posts .post:last-child {
+  border-bottom: none;
+}
+
+.posts .post h2 {
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.posts .post h2 a {
+  color: #C30000;
+  text-decoration: none;
+}
+
+.posts .post h2 a:hover {
+  text-decoration: underline;
+}
+
+.posts .post time {
+  color: #666;
+  font-size: 0.9em;
+  font-style: italic;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.posts .post p {
+  margin-bottom: 0;
+}
