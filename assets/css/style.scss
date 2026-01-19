@@ -44,3 +44,82 @@
 .posts .post p {
   margin-bottom: 0;
 }
+
+/* Styles for individual post page */
+.post-header {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+}
+
+.post-header h1 {
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+  font-style: italic;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.post-categories,
+.post-tags {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+.category,
+.tag {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.post-navigation {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-navigation a {
+  color: #C30000;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border: 1px solid #C30000;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.post-navigation a:hover {
+  background: #C30000;
+  color: white;
+}
+
+.post-navigation .prev {
+  margin-right: auto;
+}
+
+.post-navigation .next {
+  margin-left: auto;
+}
+
+/* Styles for page layout */
+.page-header {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+}
+
+.page-header h1 {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
